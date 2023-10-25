@@ -1,17 +1,92 @@
-.donate{
+.donate {
     height: 100vh;
-    background-color: $color3;
-    display: flex;
-    align-items: center;
+    background-color: $color2;
+    padding-top: 20px;
 
-    .images{
+    .images {
         display: flex;
         justify-content: space-around;
         align-items: center;
         width: 100%;
-        
-        img{
+
+        img {
             border-radius: 5px;
+        }
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 30px;
+        color: $color6;
+        font-size: 65px;
+        font-family: $text1;
+    }
+
+    div {
+        text-align: center;
+        margin: auto;
+    }
+}
+
+.message {
+    height: 100vh;
+    background-color: $color5;
+    color: aliceblue;
+    padding: 3% 10%;
+    font-family: $text1;
+    letter-spacing: 1px;
+
+    .letter {
+        line-height: 25px;
+    }
+
+    p {
+        margin: 35px 0;
+    }
+
+}
+
+
+.donteNow {
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: $color2;
+
+    .img {
+        width: 400px;
+        padding: 23px 0;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .donatenow {
+        width: 50%;
+
+        h4{
+            font-size: 65px;
+            color: $color3;
+            font-family: $text1;
+        }
+
+        p{
+            font-family: $text3;
+            color: $color6;
+            font-size: 17.5px;
+        }
+        
+        .click{
+            font-size: 17px;
+            color: $color6;
+            margin: 30px 0 10px 0;
+            font-family: $text3;
+        }
+
+        .btn{
+            width: 130px;
         }
     }
 }
