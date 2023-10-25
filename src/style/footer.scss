@@ -1,0 +1,43 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50vh;
+    background-color: $color6;
+    margin-top: 10px;
+
+    .contact {
+
+
+        h1 {
+            font-family: $text1;
+            font-size: 65px;
+        }
+
+        .contact-info {
+            font-size: 17px;
+            font-family: $text3;
+            line-height: 35px;
+
+            span {
+                color: $color3;
+            }
+        }
+
+        .icons {
+            display: flex;
+            width: 60%;
+            justify-content: space-between;
+            font-size: 30px;
+            margin-top: 15px;
+        }
+    }
+
+    .img {
+        width: 500px;
+
+        img {
+            width: 100%;
+        }
+    }
+}
