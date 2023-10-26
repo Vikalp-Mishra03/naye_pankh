@@ -2,11 +2,13 @@ import React from 'react'
 import boy from '../assets/2.avif'
 
 export default function Main() {
+
+
     return (
         <>
             <div className='main'>
                 <div className="image-container">
-                    <img src={boy} alt="" />
+                    <img src={boy} alt=""  />
                 </div>
                 <div className="right">
                     <h4>ABOUT US</h4>
