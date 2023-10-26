@@ -4,4 +4,42 @@
     align-items: center;
     background-color: #004aab;
     height: 150vh;
+
+    img{
+        width: 80%;
+    }
+}
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .newspaper{
+        height: 90vh;
+    
+        img{
+            width: 100%;
+        }
+    }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .newspaper{
+        height: 90vh;
+    
+        img{
+            width: 95%;
+        }
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .newspaper{
+        height: 100vh;
+    
+        img{
+            width: 80%;
+        }
+    }
 }
