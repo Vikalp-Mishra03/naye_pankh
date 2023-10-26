@@ -11,7 +11,7 @@ export default function Join() {
                 <p>"Join our team and make a difference in the lives of those in need. At NayePankh Foundation, we are committed to creating positive change and empowering communities. By joining our team, you will have the opportunity to contribute your time, skills, and ideas to help make a real impact. Whether you are passionate about education, health, or providing support during times of crisis, there is a place for you on our team. Join us today and be a part of an organization that is making a difference, one person at a time."</p>
 
                 <div className="button">
-                    <button className='button1'>JOIN US</button>
+                  <a href="/donate">  <button className='button1'>JOIN US</button></a>
                    
                 </div>
             </div>

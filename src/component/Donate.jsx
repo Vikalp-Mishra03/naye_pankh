@@ -21,7 +21,7 @@ export default function Donate() {
 
         <h1>"Together, Let's Make a Difference!"</h1>
         <div>
-          <button className='button1'>Donate Now</button>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScQRE7vFFPaDJhbdBZJubFX-HUFLBmZTmewkxaIPVhz0pQXsQ/viewform"><button className='button1'>Donate Now</button></a>
         </div>
       </div>
 
@@ -46,7 +46,7 @@ export default function Donate() {
             {/* <img src={donate7} alt="" /> */}
           {/* </div> */}
           <div className='btn'>
-            <div className="button1">Donate Now</div>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScQRE7vFFPaDJhbdBZJubFX-HUFLBmZTmewkxaIPVhz0pQXsQ/viewform"><button className='button1'>Donate Now</button></a>
           </div>
         </div>
       </div>

@@ -34,11 +34,11 @@ function Navbar() {
         <header>
             <h3>   <Link to='/'><img src={logo} alt="" /></Link></h3>
             <nav ref={navRef}>
-                <a href="/">Home</a>
-                <a href="/about">About Us</a>
-                <a href="/certificates">Our Certificates</a>
-                <a href="/newsPaper">Newspaper-Recognition</a>
-                <a href="/donate">Donate</a>
+                <Link to="/">Home</Link>
+                <Link to="/about">About Us</Link>
+                <Link to="/certificates">Our Certificates</Link>
+                <Link to="/newsPaper">Newspaper-Recognition</Link>
+                <Link to="/donate">Donate</Link>
                 <button
                     className="nav-btn nav-close-btn"
                     onClick={showNavbar}>

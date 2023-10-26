@@ -15,6 +15,7 @@
 @import 'donate';
 @import 'certificate';
 @import 'newspaper';
+
 * {
     margin: 0;
     padding: 0;
@@ -33,6 +34,7 @@ body {
     border: 2px solid $color3;
     color: $color6;
     transition: all 0.5s;
+    cursor: pointer;
 
     &:hover {
         background-color: transparent;
@@ -48,6 +50,7 @@ body {
     border: 2px solid $color3;
     color: $color3;
     transition: all 0.5s;
+    cursor: pointer;
 
     &:hover {
         background-color: $color3;
@@ -56,3 +59,6 @@ body {
     }
 }
 
+a {
+    text-decoration: none;
+}

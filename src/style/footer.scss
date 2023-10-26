@@ -70,12 +70,19 @@ footer {
                 justify-content: space-between;
                 font-size: 30px;
                 margin-top: 15px;
+
+                .icon {
+                    a {
+                        color: $color3;
+                    }
+                }
+
             }
         }
-        
+
         .img {
             width: 350px;
-        
+
             img {
                 width: 100%;
             }

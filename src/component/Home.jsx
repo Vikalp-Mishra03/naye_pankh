@@ -23,7 +23,7 @@ export default function Home() {
         <div className="right">
           <h1>It's that easy to bring a Smile on Their Faces</h1>
           <p>We don't ask for much, just help us with what you can- Be it Money, Skill or Your Time</p>
-          <button>Donate Now</button>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScQRE7vFFPaDJhbdBZJubFX-HUFLBmZTmewkxaIPVhz0pQXsQ/viewform"><button>Donate Now</button></a>
         </div>
       </div>
       <Main />
