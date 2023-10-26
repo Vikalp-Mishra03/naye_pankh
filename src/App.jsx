@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import React from 'react'
-import Header from "./component/Header"
+import Navbar from "./component/Navbar"
 import Home from './component/Home'
 import About from './component/About'
 import Certificates from './component/Certificates'
@@ -11,7 +11,7 @@ import Footer from "./component/Footer"
 export default function App() {
   return (
     <Router>
-      <Header />
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

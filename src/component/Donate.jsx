@@ -5,7 +5,7 @@ import donate3 from '../assets/15.avif'
 import donate4 from '../assets/16.avif'
 import donate5 from '../assets/20.avif'
 import donate6 from '../assets/18.avif'
-import donate7 from '../assets/19.avif'
+// import donate7 from '../assets/19.avif'
 export default function Donate() {
   return (
 
@@ -42,6 +42,9 @@ export default function Donate() {
           <h4>Donate Now</h4>
           <p>Imagine for a moment that you are struggling to make ends meet. You're worried about how you'll pay for basic necessities like food, shelter, and healthcare. Now, imagine that someone steps forward and offers a helping hand - a small donation that can make all the difference in your life. That feeling of relief and gratitude is immeasurable. By donating to a cause you care about, you have the power to make that difference in someone's life. You can provide hope and support to those who need it most, and create a ripple effect of kindness and generosity in the world. So, if you have the means to give, think about the impact you can make. Your donation may just be the lifeline that someone desperately needs.</p>
           <div className="click">Click on the button below to donate to Us</div>
+          {/* <div className="qrcode"> */}
+            {/* <img src={donate7} alt="" /> */}
+          {/* </div> */}
           <div className='btn'>
             <div className="button1">Donate Now</div>
           </div>
