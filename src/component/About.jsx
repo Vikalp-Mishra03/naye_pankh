@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutHeader from '../assets/6.avif'
+// import aboutHeader from '../assets/6.avif'
 import { } from 'react-icons/gi'
 import { FiArrowDown } from 'react-icons/fi'
 import description from '../assets/7.avif'
@@ -9,7 +9,7 @@ export default function About() {
 
     <>
       <div className='about'>
-        <img src={aboutHeader} alt="" />
+        {/* <img src={aboutHeader} alt="" /> */}
         <div className="bg"></div>
         <div className="center">
           <h1>About Us</h1>
