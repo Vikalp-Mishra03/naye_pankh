@@ -37,8 +37,9 @@
         }
 
         .down {
-            margin-top: 12%;
+            margin-top: 8%;
             font-size: 50px;
+            animation: animateLogo 1s infinite linear alternate;
         }
     }
 }

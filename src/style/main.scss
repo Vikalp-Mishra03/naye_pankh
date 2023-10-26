@@ -8,17 +8,24 @@
     .image-container {
         height: 130vh;
         width: 40%;
+        animation: mymove 0.5s linear;
+        animation-timing-function: ease-out;
+        animation-timeline: view();
 
         img {
             width: 100%;
             height: 100%;
-
         }
+
     }
+
 
     .right {
         width: 30%;
         color: $color6;
+        animation: mymove 0.5s linear;
+        // animation-timing-function: ease-out;
+        animation-timeline: view();
 
         h4 {
             font-family: $text1;
@@ -53,4 +60,99 @@
         }
     }
 
+}
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .main {
+
+        height: 150vh;
+        flex-direction: column;
+
+
+        .image-container {
+            height: 60vh;
+            width: 60%;
+        }
+
+
+        .right {
+            width: 100%;
+
+            h1 {
+                font-size: 55px;
+                margin: 10px 0;
+            }
+
+            p {
+                width: 100%;
+                text-align: center;
+                font-size: 15px;
+            }
+
+            .button {
+                width: 100%;
+                justify-content: space-around;
+
+            }
+        }
+
+    }
+
+
+}
+
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .main {
+        height: 100vh;
+
+
+        .image-container {
+            height: 80vh;
+        }
+
+        .right {
+            width: 50%;
+
+
+            h1 {
+                font-size: 55px;
+                margin: 10px 0;
+            }
+        }
+    }
+
+}
+
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main {
+        display: flex;
+        height: 135vh;
+        background: #242582;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .image-container {
+            height: 100vh;
+            width: 40%;
+            animation: mymove 0.5s linear;
+            animation-timing-function: ease-out;
+            animation-timeline: view();
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+
+        }
+
+        .right {
+            width: 50%;
+        }
+    }
 }

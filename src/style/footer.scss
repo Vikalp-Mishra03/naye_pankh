@@ -41,3 +41,99 @@ footer {
         }
     }
 }
+
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+
+        .contact {
+
+
+            h1 {
+                font-family: $text1;
+                font-size: 40px;
+            }
+
+            .contact-info {
+                font-size: 15px;
+                font-family: $text3;
+                line-height: 30px;
+            }
+
+            .icons {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                font-size: 30px;
+                margin-top: 15px;
+            }
+        }
+        
+        .img {
+            width: 350px;
+        
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    footer {
+
+        .contact {
+
+
+            h1 {
+                font-family: $text1;
+                font-size: 40px;
+            }
+
+            .contact-info {
+                font-size: 15px;
+                font-family: $text3;
+                line-height: 30px;
+            }
+        }
+
+        .img {
+            width: 350px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    footer {
+
+        .contact {
+
+
+            h1 {
+                font-size: 50px;
+            }
+        }
+
+        .img {
+            width: 450px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+}
