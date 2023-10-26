@@ -1,7 +1,9 @@
 .about {
+    background: url(../assets/6.avif);
     width: 100%;
-    height: 100vh;
+    height: 115vh;
     background-repeat: no-repeat;
+    margin-top: 50%;
     object-fit: cover;
 
     img {
@@ -11,9 +13,10 @@
 
     .bg {
         background-color: #1d1e20;
-        height: 105vh;
+        height: 100%;
         opacity: 0.5;
-        margin-top: -51.3%;
+
+        margin-top: -56.2%;
     }
 
     .center {
@@ -104,4 +107,266 @@
         letter-spacing: 1px;
 
     }
+}
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .about {
+        width: 100%;
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        img {
+            width: 100%;
+            height: 90vh;
+        }
+
+
+        .center {
+
+            top: 40%;
+
+            h1 {
+                font-family: $text1;
+                line-height: 55px;
+            }
+
+            p {
+                font-family: $text3;
+                margin-top: 10px;
+            }
+
+            .down {
+                margin-top: 20%;
+                font-size: 50px;
+                animation: animateLogo 1s infinite linear alternate;
+            }
+        }
+    }
+
+
+    .started {
+        height: 80vh;
+        background-color: $color5;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .description {
+            width: 100%;
+            padding: 0 10px;
+
+            h2 {
+                color: $color6;
+                font-family: $text1;
+                font-size: 40px;
+                margin-bottom: 5px;
+            }
+
+            p {
+                color: $color3;
+                font-size: 18px;
+                font-family: $text3;
+            }
+        }
+
+        .img {
+            width: 70%;
+            height: 35%;
+            margin-bottom: 10px;
+
+        }
+    }
+
+    .nayePankh {
+        padding: 0 2%;
+        height: 100vh;
+
+        h3 {
+            font-size: 40px;
+            color: $color3;
+            font-family: $text1;
+        }
+
+        p {
+            line-height: 25px;
+            font-size: 13px;
+        }
+    }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .about {
+        width: 100%;
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        img {
+            width: 100%;
+            height: 90vh;
+        }
+
+
+        .center {
+
+            top: 40%;
+
+            h1 {
+                font-family: $text1;
+                line-height: 55px;
+            }
+
+            p {
+                font-family: $text3;
+                margin-top: 10px;
+            }
+
+            .down {
+                margin-top: 20%;
+                font-size: 50px;
+                animation: animateLogo 1s infinite linear alternate;
+            }
+        }
+    }
+
+
+    .started {
+        height: 80vh;
+        background-color: $color5;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .description {
+            width: 100%;
+            padding: 0 10px;
+
+            h2 {
+                color: $color6;
+                font-family: $text1;
+                font-size: 40px;
+                margin-bottom: 5px;
+            }
+
+            p {
+                color: $color3;
+                font-size: 18px;
+                font-family: $text3;
+            }
+        }
+
+        .img {
+            width: 70%;
+            height: 35%;
+
+        }
+    }
+
+    .nayePankh {
+        padding: 0 2%;
+        height: 100vh;
+
+        h3 {
+            font-size: 45px;
+            color: $color3;
+            font-family: $text1;
+        }
+
+        p {
+            line-height: 28px;
+            font-size: 16px;
+        }
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .about {
+        width: 100%;
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+        .center {
+
+            top: 40%;
+
+            h1 {
+                font-family: $text1;
+                line-height: 55px;
+            }
+
+            p {
+                font-family: $text3;
+                margin-top: 10px;
+            }
+
+            .down {
+                margin-top: 20%;
+                font-size: 50px;
+                animation: animateLogo 1s infinite linear alternate;
+            }
+        }
+    }
+
+
+    .started {
+        height: 80vh;
+        background-color: $color5;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .description {
+            width: 50%;
+
+            h2 {
+                color: $color6;
+                font-family: $text1;
+                font-size: 40px;
+                margin-bottom: 5px;
+            }
+
+            p {
+                color: $color3;
+                font-size: 18px;
+                font-family: $text3;
+            }
+        }
+
+        .img {
+            width: 44%;
+            height: 35%;
+
+        }
+    }
+
+    .nayePankh {
+        padding: 0 2%;
+        height: 100vh;
+
+        h3 {
+            font-size: 65px;
+            color: $color3;
+            font-family: $text1;
+        }
+
+        p {
+            color: $color6;
+            font-family: $text3;
+            line-height: 30px;
+            font-size: 20px;
+            letter-spacing: 1px;
+
+        }
+    }
+
+
 }
