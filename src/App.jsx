@@ -7,7 +7,7 @@ import Certificates from './component/Certificates'
 import Newspaper from './component/Newspaper'
 import Donate from './component/Donate'
 import Footer from "./component/Footer"
-
+import Account from "./component/Account"
 export default function App() {
   return (
     <Router>
@@ -18,6 +18,7 @@ export default function App() {
         <Route path="/certificates" element={<Certificates />} />
         <Route path="/newsPaper" element={<Newspaper />} />
         <Route path="/donate" element={<Donate />} />
+        <Route path="/account" element={<Account/>}/>
       </Routes>
 
       <Footer />
