@@ -1,21 +1,3 @@
-// import React from 'react'
-// import { Link, NavLink } from 'react-router-dom'
-// import logo from '../assets/logo.avif'
-// export default function Header() {
-//     return (
-//         <nav>
-//             <Link to='/'><img src={logo} alt="" /></Link>
-//             <div className='nav-right'>
-//                 <NavLink exact activeClassName="active" to='/' >Home</NavLink>
-//                 <NavLink  activeClassName="active" to='/about' >About Us</NavLink>
-//                 <NavLink  activeClassName="active" to='/certificates' >Our Certificates</NavLink>
-//                 <NavLink  activeClassName="active" to='/newsPaper' >Newspaper-Recognition</NavLink>
-//                 <NavLink  activeClassName="active" to='/donate' >Donate</NavLink>
-//             </div>
-//         </nav>
-//     )
-// }
-
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import logo from '../assets/logo.avif'
@@ -39,6 +21,7 @@ function Navbar() {
                 <Link to="/certificates">Our Certificates</Link>
                 <Link to="/newsPaper">Newspaper-Recognition</Link>
                 <Link to="/donate">Donate</Link>
+                <Link to='/account'> <button className="button2">Account</button></Link>
                 <button
                     className="nav-btn nav-close-btn"
                     onClick={showNavbar}>
