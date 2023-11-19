@@ -11,6 +11,7 @@ import Founder from './Founder'
 import { Carousel } from 'react-responsive-carousel'
 // import Carousels from './Carousels'
 // import Carousel from './Carousels'
+import Testimonial from './Testimonial';
 
 
 export default function Home() {
@@ -48,6 +49,7 @@ export default function Home() {
 
       </Carousel>
       <Join />
+      <Testimonial />
       <Founder />
     </>
   )
