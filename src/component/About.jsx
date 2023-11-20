@@ -3,6 +3,7 @@ import React from 'react'
 import { } from 'react-icons/gi'
 import { FiArrowDown } from 'react-icons/fi'
 import description from '../assets/7.avif'
+import Feedback from './Feedback'
 
 export default function About() {
   return (
@@ -24,6 +25,7 @@ export default function About() {
           <p>As we all know, 2020 was a year the world was striving to survive the global pandemic of covid-19. During these dire times we felt an urge to make an impact with whatever we had, and so we tried!! We tried to uplift the underprivileged and help the needy with all our resources and material we could arrange, it was tough but we didn't lose our hope and kept going in order to bring a change everyone was expecting the bigger authorities to bring in the societies on smaller levels. We started off as a group of bunch of highschoolers but now are a team of numerous people from different parts of the city and state! 28th March 2021, the day we officially landed on the ground to serve our duties as the youth of the most rapidly progressing nation afterall, the main hope of a nation lies in the arms of its youth.</p>
         </div>
 
+    <Feedback/>
         <div className="img">
           <img src={description} alt="" />
         </div>
