@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { AiFillMail } from 'react-icons/ai';
 import { FaLock, FaUser } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import Feedback from './Feedback';
 
 export default function Account() {
   const [name, setName] = useState('');
@@ -106,7 +107,8 @@ export default function Account() {
   };
 
   return (
-    <div className='body'>
+    <div className='account'>
+      {/* <Feedback/> */}
       <div className="wrapper">
         <div className="form-box login">
            <h2>Log-in</h2>
