@@ -5,7 +5,7 @@ import donate3 from '../assets/15.avif'
 import donate4 from '../assets/16.avif'
 import donate5 from '../assets/20.avif'
 import donate6 from '../assets/18.avif'
-// import donate7 from '../assets/19.avif'
+import Feedback from './Feedback'
 export default function Donate() {
   return (
 
@@ -20,6 +20,7 @@ export default function Donate() {
         </div>
 
         <h1>"Together, Let's Make a Difference!"</h1>
+        <Feedback/>
         <div>
           <a href="https://docs.google.com/forms/d/e/1FAIpQLScQRE7vFFPaDJhbdBZJubFX-HUFLBmZTmewkxaIPVhz0pQXsQ/viewform"><button className='button1'>Donate Now</button></a>
         </div>
