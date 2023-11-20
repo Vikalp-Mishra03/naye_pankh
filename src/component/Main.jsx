@@ -17,7 +17,7 @@ export default function Main() {
 
                     <div className="button">
                       <a href="/about">  <button className='button1'>LEARN MORE</button></a>
-                       <a href="/certificates"></a> <button className='button2'>OUR CERTIFICATES</button>
+                       <a href="/certificates"> <button className='button2'>OUR CERTIFICATES</button></a>
                     </div>
                 </div>
             </div>
