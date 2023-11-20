@@ -18,9 +18,8 @@ export default function App() {
         <Route path="/certificates" element={<Certificates />} />
         <Route path="/newsPaper" element={<Newspaper />} />
         <Route path="/donate" element={<Donate />} />
-        <Route path="/account" element={<Account/>}/>
+        <Route path="/account" element={<Account />} />
       </Routes>
-
       <Footer />
     </Router>
   )
