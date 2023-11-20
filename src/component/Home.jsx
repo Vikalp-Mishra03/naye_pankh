@@ -9,9 +9,8 @@ import Banner from './Banner'
 import Join from './Join'
 import Founder from './Founder'
 import { Carousel } from 'react-responsive-carousel'
-// import Carousels from './Carousels'
-// import Carousel from './Carousels'
 import Testimonial from './Testimonial';
+import Feedback from './Feedback';
 
 
 export default function Home() {
@@ -50,6 +49,7 @@ export default function Home() {
       </Carousel>
       <Join />
       <Testimonial />
+      <Feedback />
       <Founder />
     </>
   )
